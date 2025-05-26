@@ -9,7 +9,10 @@ after-login-command = []
 # You can use it to add commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
-after-startup-command = []
+after-startup-command = [
+  'exec-and-forget borders active_color=0xff00ff00 inactive_color=0xff494d64 width=5.0'
+  
+]
 
 # Start AeroSpace at login
 start-at-login = false
@@ -210,3 +213,22 @@ automatically-unhide-macos-hidden-apps = false
     down = 'volume down'
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
+
+[workspace-to-monitor-force-assignment]
+    1 = 'main'
+
+    2 = 'main'
+
+    3 = 'main'
+
+    4 = 'main'
+
+    5 = 'main'
+
+    6 = ['secondary', 'main']
+
+    7 = ['secondary', 'main']
+
+    8 = ['secondary', 'main']
+
+    9 = ['secondary', 'main']

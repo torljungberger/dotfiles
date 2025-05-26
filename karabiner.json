@@ -295,12 +295,6 @@
                                             "value": 1
                                         }
                                     },
-                                    {
-                                        "set_notification_message": {
-                                            "id": "mouse_keys_mode_v4",
-                                            "text": "Mouse Keys Mode v4"
-                                        }
-                                    },
                                     { "mouse_key": { "x": 1536 } }
                                 ],
                                 "type": "basic"
