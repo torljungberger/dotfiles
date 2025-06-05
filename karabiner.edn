@@ -20,6 +20,7 @@
                  [:!QWERv "open -a 'MacVim.app'"]
                  [:!QWERf "open -a 'Finder.app'"]
                  [:!QWERt "open -a 'Terminal.app'"]
+                 [:!QWERz "open -a 'Zotero.app'"]
                  [:!QWERcomma "open -a 'System Settings.app'"]
                  ]
          }
